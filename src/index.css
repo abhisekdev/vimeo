@@ -5,3 +5,41 @@
 body {
   background-color: #0a0d12;
 }
+
+.owl-nav {
+  z-index: 99999;
+  position: relative;
+  bottom: 230px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.owl-prev {
+  position: relative;
+  left: -40px;
+  transition: all 0.2s ease-out;
+}
+
+.owl-prev span {
+  color: white;
+  font-size: 52px;
+}
+
+.owl-prev:hover {
+  background: none;
+}
+
+.owl-next {
+  position: relative;
+  right: 90px;
+  transition: all 0.2s ease-out;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+  background: none !important;
+}
+
+.owl-next > span {
+  color: white;
+  font-size: 52px;
+}
