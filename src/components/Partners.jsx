@@ -3,7 +3,7 @@ const Partners = () => {
   return (
     <div className='relative'>
       <div className='container mx-auto pt-40 pb-16'>
-        <div className="flex items-center gap-16 flex-wrap">
+        <div className="flex items-center justify-center gap-16 flex-wrap">
           <img src="https://i.vimeocdn.com/custom_asset/dcaf15d21b438cea6bea3b9350cee9e3" alt="1" />
           <img src="https://i.vimeocdn.com/custom_asset/b250fa5736607ca0f470ec845aa5afc4" alt="2" />
           <img src="https://i.vimeocdn.com/custom_asset/c72950da078492e03e60772b69e7404e" alt="3" />
